@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55dbbe38ac5433b5b1406aef68a84e93",
+    "content-hash": "f9ccf9edc418e37953332146d2b715bf",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -495,21 +495,21 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:goodshuffle/divi.git",
-                "reference": "884c48d3dd0f97b9efccbdabfc53680e62587f49"
+                "reference": "7ce53460cd81068375f2d2fc5d1245deb34d0b04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goodshuffle/divi/zipball/884c48d3dd0f97b9efccbdabfc53680e62587f49",
-                "reference": "884c48d3dd0f97b9efccbdabfc53680e62587f49",
+                "url": "https://api.github.com/repos/goodshuffle/divi/zipball/7ce53460cd81068375f2d2fc5d1245deb34d0b04",
+                "reference": "7ce53460cd81068375f2d2fc5d1245deb34d0b04",
                 "shasum": ""
             },
-            "type": "wordpress-plugin",
+            "type": "wordpress-theme",
             "description": "The Most Popular WordPress Theme In The World And The Ultimate WordPress Page Builder",
             "support": {
                 "source": "https://github.com/goodshuffle/divi/tree/master",
                 "issues": "https://github.com/goodshuffle/divi/issues"
             },
-            "time": "2019-07-09T19:30:33+00:00"
+            "time": "2019-07-09T19:54:09+00:00"
         },
         {
             "name": "divi/monarch",

@@ -61,6 +61,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:goodshuffle/divi-builder"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:goodshuffle/bloom.git"
     },
     {
@@ -74,9 +78,9 @@
         "automattic/batcache",
         "wpackagist-plugin/redis-cache",
         "wpackagist-plugin/secure-db-connection",
-        "divi/divi",
         "divi/monarch",
-        "divi/bloom"
+        "divi/bloom",
+        "divi/divi-builder"
       ],
       "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [
         "type:wordpress-plugin"
