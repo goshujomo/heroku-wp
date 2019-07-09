@@ -51,6 +51,18 @@
     {
       "type": "composer",
       "url": "https://wp-cli.org/package-index"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:goodshuffle/divi.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:goodshuffle/bloom.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:goodshuffle/monarch.git"
     }
   ],
   "extra": {
