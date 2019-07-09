@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "512fd130f09c8eaa4277c40a777eea91",
+    "content-hash": "55dbbe38ac5433b5b1406aef68a84e93",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -466,6 +466,72 @@
                 "performance"
             ],
             "time": "2019-05-27T17:52:04+00:00"
+        },
+        {
+            "name": "divi/bloom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:goodshuffle/bloom.git",
+                "reference": "5fcc11dd3c1bbbe1d18bd951ecc0ba3a894014ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/goodshuffle/bloom/zipball/5fcc11dd3c1bbbe1d18bd951ecc0ba3a894014ee",
+                "reference": "5fcc11dd3c1bbbe1d18bd951ecc0ba3a894014ee",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "eMail Opt-In And Lead Generation Plugin For WordPress",
+            "support": {
+                "source": "https://github.com/goodshuffle/bloom/tree/master",
+                "issues": "https://github.com/goodshuffle/bloom/issues"
+            },
+            "time": "2019-07-09T19:30:14+00:00"
+        },
+        {
+            "name": "divi/divi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:goodshuffle/divi.git",
+                "reference": "884c48d3dd0f97b9efccbdabfc53680e62587f49"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/goodshuffle/divi/zipball/884c48d3dd0f97b9efccbdabfc53680e62587f49",
+                "reference": "884c48d3dd0f97b9efccbdabfc53680e62587f49",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "The Most Popular WordPress Theme In The World And The Ultimate WordPress Page Builder",
+            "support": {
+                "source": "https://github.com/goodshuffle/divi/tree/master",
+                "issues": "https://github.com/goodshuffle/divi/issues"
+            },
+            "time": "2019-07-09T19:30:33+00:00"
+        },
+        {
+            "name": "divi/monarch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:goodshuffle/monarch.git",
+                "reference": "2b4d7a4a638c8468bf0b4293e814cd1329410f52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/goodshuffle/monarch/zipball/2b4d7a4a638c8468bf0b4293e814cd1329410f52",
+                "reference": "2b4d7a4a638c8468bf0b4293e814cd1329410f52",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "The Best Social Media Sharing Plugin For WordPress",
+            "support": {
+                "source": "https://github.com/goodshuffle/monarch/tree/master",
+                "issues": "https://github.com/goodshuffle/monarch/issues"
+            },
+            "time": "2019-07-09T19:30:37+00:00"
         },
         {
             "name": "humanmade/s3-uploads",
@@ -3557,7 +3623,10 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "automattic/batcache": 20
+        "automattic/batcache": 20,
+        "divi/divi": 20,
+        "divi/bloom": 20,
+        "divi/monarch": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

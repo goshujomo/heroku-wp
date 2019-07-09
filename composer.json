@@ -14,7 +14,7 @@
   "require": {
     "ext-gd": "*",
     "php": "7.*",
-    "WordPress/WordPress": "*",
+    "wordpress/wordpress": "*",
     "automattic/batcache": "dev-master",
     "wpackagist-plugin/redis-cache": "~1",
     "wpackagist-plugin/secure-db-connection": "~1",
@@ -22,7 +22,10 @@
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
     "predis/predis": "~1.0",
-    "wp-cli/wp-cli": "^1.0"
+    "wp-cli/wp-cli": "^1.0",
+    "divi/divi": "dev-master",
+    "divi/bloom": "dev-master",
+    "divi/monarch": "dev-master"
   },
   "suggest": {
     "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
@@ -54,15 +57,15 @@
     },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:goodshuffle/divi.git"
+      "url": "git@github.com:goodshuffle/divi"
     },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:goodshuffle/bloom.git"
+      "url": "git@github.com:goodshuffle/bloom.git"
     },
     {
       "type": "vcs",
-      "url": "git@bitbucket.org:goodshuffle/monarch.git"
+      "url": "git@github.com:goodshuffle/monarch.git"
     }
   ],
   "extra": {
@@ -70,7 +73,10 @@
       "vendor/WordPress/WordPress/wp-content/mu-plugins/{$name}/": [
         "automattic/batcache",
         "wpackagist-plugin/redis-cache",
-        "wpackagist-plugin/secure-db-connection"
+        "wpackagist-plugin/secure-db-connection",
+        "divi/divi",
+        "divi/monarch",
+        "divi/bloom"
       ],
       "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [
         "type:wordpress-plugin"
