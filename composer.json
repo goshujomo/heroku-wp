@@ -77,10 +77,7 @@
       "vendor/WordPress/WordPress/wp-content/mu-plugins/{$name}/": [
         "automattic/batcache",
         "wpackagist-plugin/redis-cache",
-        "wpackagist-plugin/secure-db-connection",
-        "divi/monarch",
-        "divi/bloom",
-        "divi/divi-builder"
+        "wpackagist-plugin/secure-db-connection"
       ],
       "vendor/WordPress/WordPress/wp-content/plugins/{$name}/": [
         "type:wordpress-plugin"
