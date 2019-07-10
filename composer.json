@@ -25,7 +25,8 @@
     "wp-cli/wp-cli": "^1.0",
     "divi/divi": "dev-master",
     "divi/bloom": "dev-master",
-    "divi/monarch": "dev-master"
+    "divi/monarch": "dev-master",
+    "divi/extra": "dev-master"
   },
   "suggest": {
     "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
@@ -70,6 +71,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:goodshuffle/monarch.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:goodshuffle/extra.git"
     }
   ],
   "extra": {

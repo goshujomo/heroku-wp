@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6dfc115d004c0cb22047beadd54d74b",
+    "content-hash": "bf097b48656f38af40e6ffa602ff37c8",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -510,6 +510,28 @@
                 "issues": "https://github.com/goodshuffle/divi/issues"
             },
             "time": "2019-07-09T19:54:09+00:00"
+        },
+        {
+            "name": "divi/extra",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:goodshuffle/extra.git",
+                "reference": "c41082ca382d48f7d772e6ae8149dc8097c47ca4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/goodshuffle/extra/zipball/c41082ca382d48f7d772e6ae8149dc8097c47ca4",
+                "reference": "c41082ca382d48f7d772e6ae8149dc8097c47ca4",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "description": "A theme for Divi sites",
+            "support": {
+                "source": "https://github.com/goodshuffle/extra/tree/master",
+                "issues": "https://github.com/goodshuffle/extra/issues"
+            },
+            "time": "2019-07-10T02:01:43+00:00"
         },
         {
             "name": "divi/monarch",
@@ -3626,7 +3648,8 @@
         "automattic/batcache": 20,
         "divi/divi": 20,
         "divi/bloom": 20,
-        "divi/monarch": 20
+        "divi/monarch": 20,
+        "divi/extra": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
